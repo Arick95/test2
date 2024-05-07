@@ -12,6 +12,12 @@ export class MainComponent {
 
   constructor(private translate: TranslateService,) { }
 
+
+  checkWhichLanguage(){
+    
+  }
+
+
   translateEnglish() {
     this.translate.use('en');
    
